@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Obakeng's resume</title>
+  </head>
+  <body>
+    <main>
+      <section id="menu">
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#samples">Samples</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="hero">
+        <h1>Obakeng Pitse</h1>
+        <p>Junior Software Developer</p>
+      </section>
+
+      <section id="about">
+        <img
+          class="profilePic"
+          src="images/myPic.png"
+          alt="picture of Obakeng"
+        />
+        <span class="about-me">
+          I am a young, talented, <br />hardworking individual who is <br />
+          knowledgeable in Software Development <br />
+          & Intelligent Industrial Systems. <br />
+          I am eager to learn and grow, <br />
+          and contribute to your company.
+        </span>
+      </section>
+
+      <section id="skills">
+        <h2 id="skills-set">Skills</h2>
+        <div class="slidershow middle">
+
+            <div class="slides">
+              <input type="radio" name="r" id="r1" checked>
+              <input type="radio" name="r" id="r2">
+              <input type="radio" name="r" id="r3">
+              <input type="radio" name="r" id="r4">
+              <input type="radio" name="r" id="r5">
+              <div class="slide s1">
+                <img src="images/1.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/2.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/3.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/4.png" alt="">
+              </div>
+              <div class="slide">
+                <img src="images/5.jfif" alt="">
+              </div>
+            </div>
+      
+            <div class="navigation">
+              <label for="r1" class="bar"></label>
+              <label for="r2" class="bar"></label>
+              <label for="r3" class="bar"></label>
+              <label for="r4" class="bar"></label>
+              <label for="r5" class="bar"></label>
+            </div>
+          </div>
+      </section>
+
+      <section id="work-experience">
+        <h2 id="experience">Experience</h2>
+        <hr />
+        <span class="dates">Jan 2022 - June 2022</span>
+        <h3>
+          Trainee IT Support Technician &dash; Tech Mahindra (Exxaro project)
+        </h3>
+        <p>
+          &bullet; Switch installations and configuration <br />
+          &bullet; Network monitoring and maintenance <br />
+          &bullet; End user support
+        </p>
+        <span class="dates">Jan 2018 - Dec 2020</span>
+        <h3>Student Mentor &dash; Tshwane University Of Technology</h3>
+        <p>
+          Mentoring IT students on&colon; <br /><br />
+          &Tab;&bullet; Software Development
+          <br />&Tab;&bullet; Mathematics<br />
+          &Tab;&bullet; IT Electronics<br />
+          &Tab;&bullet; Computing fundermentals
+        </p>
+      </section>
+
+      <section id="education">
+        <h2 id="education">Education</h2>
+        <hr />
+        <span class="dates">July 2022 - current</span>
+        <h3>
+          Intro to Web at
+          <a href="https://codespace.co.za" target="_blank"
+            >CodeSapce Academy</a
+          >
+        </h3>
+        <p>
+          &bullet; Web development <br />
+          &bullet; Web design
+        </p>
+
+        <span class="dates">Jan 2017 - July 2021</span>
+        <h3>National Diploma IT(Intelligent Industrial Systems) &dash; TUT</h3>
+        <p>
+          &bullet; Development Software <br />
+          &bullet; IT Electronics <br />
+          &bullet; Intelligent Industrial Systems <br />
+          &bullet; Games Programming
+        </p>
+      </section>
+
+      <section id="sample-work"></section>
+
+      <section id="contact"></section>
+      <section class="mb-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive contact-h1 font-weight-bold text-center my-4">Contact Me</h2>
+
+        <div class="row">
+    
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+    
+                    <!--Grid row-->
+                    <div class="row">
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+    
+                    </div>
+                    <!--Grid row-->
+    
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+           
+                    <div class="row">
+                        <div class="col-md-12">
+    
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="text-center submit text-md-left">
+                        <a class="btn btn-primary">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </form>
+    
+                
+            </div>
+
+            <div class="col-md-3 text-center info">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Pretoria, GP 0190, RSA</p>
+                    </li>
+    
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+ 27 78 375 2647</p>
+                    </li>
+    
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>obakengpitse@yahoo.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+    </section>
+
+      </form>
+    </main>
+
+    <footer class="footer">
+        <h2 class="footerHeading">Get In Touch</h2>
+        <a href="mailto:obakeng.op@gmail.com" target="_blank"
+          ><img src="images/gmail.png" alt="gmail icon"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/obakeng-pitse-8a22621a0/"
+          target="_blank"
+          ><img src="images/linkedin.png" alt="linkedin icon"
+        /></a>
+        <a href="https://www.facebook.com/obakeng.sebilo.5" target="_blank"
+          ><img src="images/facebook.png" alt="facebook icon"
+        /></a>
+      </ul>
+      <p>Copyright &copy;2022</p>
+    </footer>
+  </body>
+</html>
