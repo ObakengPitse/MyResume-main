@@ -151,8 +151,16 @@ input[name="r"] {
 /*work xperience Styles*/
 #work-experience {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   background-color: rgb(24, 193, 184);
+}
+#work-experience {
+  display: flex;
+  justify-content: center;
+}
+#work-experience .card {
+  margin: 5px;
+  padding: 5px;
 }
 /*Sample work*/
 #sample-work {
