@@ -69,7 +69,7 @@ li a:hover {
 /*skills Styles*/
 #skills {
   width: 100%;
-  height: 80vh;
+  height: 120vh;
   text-align: center;
   margin-top: 50px;
 }
@@ -138,6 +138,14 @@ input[name="r"] {
 }
 #r5:checked ~ .s1 {
   margin-left: -80%;
+}
+/*education*/
+#education {
+  display: flex;
+  justify-content: center;
+}
+#education .card {
+  margin: 5px;
 }
 
 /*work xperience Styles*/
